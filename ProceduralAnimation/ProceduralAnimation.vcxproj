@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{843579aa-7a9c-4631-9e2a-eb3b1ae2749d}</ProjectGuid>
+    <ProjectGuid>{620B8337-7FE9-4872-BC86-C262B9FAF891}</ProjectGuid>
     <RootNamespace>ProjectTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ProceduralAnimation</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -131,17 +132,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChainLink.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OrientationManager.cpp" />
-    <ClCompile Include="ProjectName.cpp" />
+    <ClCompile Include="ProceduralAnimation.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ChainLink.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="OrientationManager.h" />
     <ClInclude Include="PrettyColors.h" />
-    <ClInclude Include="ProjectName.h" />
+    <ClInclude Include="ProceduralAnimation.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>

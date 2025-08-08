@@ -33,7 +33,10 @@
     <ClCompile Include="Game.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="ProjectName.cpp">
+    <ClCompile Include="ProceduralAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainLink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,7 +53,10 @@
     <ClInclude Include="PrettyColors.h">
       <Filter>Helpers</Filter>
     </ClInclude>
-    <ClInclude Include="ProjectName.h">
+    <ClInclude Include="ProceduralAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainLink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
